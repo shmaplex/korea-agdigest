@@ -1,4 +1,3 @@
-```markdown
 # Korea Ag Digest
 
 Curated Korean Agriculture News & Briefings  
@@ -79,49 +78,50 @@ The platform focuses on agriculture-relevant Korean outlets, including:
 
 ### Agriculture-Focused Publications
 
-농민신문 (Farmers’ Newspaper)  
+**농민신문 (Farmers’ Newspaper)**
 General farming news, agricultural policy, rural livelihoods, and practical farming guidance.
 
-원예산업신문 (Horticultural Industry Newspaper)  
+**원예산업신문 (Horticultural Industry Newspaper)**
 Horticulture trends, greenhouse production, crop technology, and ag business developments.
 
-한국농촌경제신문 (Korea Rural Economic Newspaper)  
+**한국농촌경제신문 (Korea Rural Economic Newspaper)**
 Agricultural policy, rural economy analysis, market outlooks, and research insights.
 
-한국농어민신문 (Korea Farmers & Fishermen Newspaper)  
+**한국농어민신문 (Korea Farmers & Fishermen Newspaper)**
 Farming and fisheries livelihoods, policy commentary, and sector-level reporting.
 
-영농자재신문 (Agricultural Materials Newspaper)  
+**영농자재신문 (Agricultural Materials Newspaper)**
 Agricultural inputs, materials, ag-tech innovations, and rural industry coverage.
 
 ### General Newspapers with Strong Agriculture Coverage
 
-매일경제신문 (Maeil Business Newspaper)  
+**매일경제신문 (Maeil Business Newspaper)**
 Agriculture, food markets, trade, and ag-related economics.
 
-조선일보 (Chosun Ilbo)  
+**조선일보 (Chosun Ilbo)**
 National coverage including agriculture, rural policy, and trade issues.
 
-동아일보 (Dong-A Ilbo)  
+**동아일보 (Dong-A Ilbo)**
 Broad social and economic reporting with agriculture-relevant sections.
 
 ---
 
 ## Project Structure
 
+```
 app/
-page.tsx Daily digest homepage  
- articles/[slug]/page.tsx Article detail view  
- admin/ Admin dashboard  
+page.tsx Daily digest homepage
+ articles/[slug]/page.tsx Article detail view
+ admin/ Admin dashboard
  api/
-ingest/rss/ RSS ingestion  
- ingest/fetch/ Manual scrape or fetch  
+ingest/rss/ RSS ingestion
+ ingest/fetch/ Manual scrape or fetch
  reddit/generate/ Reddit post generator
 
 lib/
-sources.ts Source registry  
- ingest.ts Normalization logic  
- summarize.ts Summarization hooks  
+sources.ts Source registry
+ ingest.ts Normalization logic
+ summarize.ts Summarization hooks
  reddit.ts Reddit formatting
 
 services/
@@ -132,6 +132,7 @@ schema.prisma
 
 scripts/
 cron.ts Daily ingestion job
+```
 
 ---
 
@@ -139,11 +140,11 @@ cron.ts Daily ingestion job
 
 Development:
 
-npm run dev  
+`npm run dev`
 or  
-pnpm dev
+`pnpm dev`
 
-Open http://localhost:3000 in your browser.
+Open <http://localhost:3000> in your browser.
 
 You can start editing by modifying app/page.tsx.
 
@@ -205,7 +206,7 @@ Korea Ag Digest is explicitly designed to:
 - Avoid sensationalism or algorithmic engagement traps
 
 Articles generated here are intended to feed discussion on:  
-https://reddit.com/r/Agriculture_in_Korea
+[/r/Agriculture_in_Korea](https://reddit.com/r/Agriculture_in_Korea)
 
 ---
 
@@ -214,4 +215,3 @@ https://reddit.com/r/Agriculture_in_Korea
 This project deliberately avoids building another centralized content platform. Instead, it treats agriculture news as shared infrastructure, emphasizing transparency, durability, and community relevance.
 
 If agriculture is foundational, then the information that shapes it should be too.
-```
