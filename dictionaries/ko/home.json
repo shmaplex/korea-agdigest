@@ -1,0 +1,20 @@
+{
+  "flairNav": {
+    "all": "전체",
+    "news": "뉴스",
+    "research": "연구",
+    "opinion": "의견"
+  },
+  "infiniteScroll": {
+    "loading": "더 불러오는 중…",
+    "scroll": "스크롤하여 더 보기"
+  },
+  "cta": {
+    "title": "토론에 참여하기",
+    "description": "여기 있는 글들은 한국 농업의 미래에 대한 장문의 심도 있는 논의를 유도하기 위해 선정되었습니다.",
+    "linkText": "r/Agriculture_in_Korea 방문 →"
+  },
+  "runDigest": {
+    "button": "다이제스트 실행"
+  }
+}

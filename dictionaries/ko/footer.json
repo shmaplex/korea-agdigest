@@ -1,0 +1,15 @@
+{
+  "description": "한국 농업에 대한 개방적 토론과 장기적 이해를 지원하기 위해 제작되었습니다. 어떤 출판사와도 관련이 없습니다.",
+  "navigation": "네비게이션",
+  "account": "계정",
+  "language": "언어",
+  "docs": "문서",
+  "terms": "서비스 약관",
+  "privacy": "개인정보 처리방침",
+  "login": "로그인",
+  "signup": "회원가입",
+  "github": "Seedlot GitHub",
+  "csl": "CSL GitHub",
+  "contribute": "{platform}에 기여하기",
+  "project": "Korea Ag Digest GitHub"
+}

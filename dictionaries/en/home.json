@@ -1,0 +1,20 @@
+{
+  "flairNav": {
+    "all": "All",
+    "news": "News",
+    "research": "Research",
+    "opinion": "Opinion"
+  },
+  "infiniteScroll": {
+    "loading": "Loading more…",
+    "scroll": "Scroll to load more"
+  },
+  "cta": {
+    "title": "Join the discussion",
+    "description": "Articles here are selected to encourage long-form, informed discussion about the future of Korean agriculture.",
+    "linkText": "Visit r/Agriculture_in_Korea →"
+  },
+  "runDigest": {
+    "button": "Run Digest"
+  }
+}
